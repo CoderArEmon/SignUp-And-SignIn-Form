@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to right, #57d7e5, #757ae6, #9129ea);
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    padding: 50px 0 20px;
+}
+.login, .signup{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.signup{
+    display: none;
+}
+.btn{
+    text-align: center;
+}
+.btn1{
+    color: #fff;
+    background-image: linear-gradient(to right, #57d7e5, #757ae6, #9129ea);
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-shadow: 0px 4px 4px #000;
+}
+.btn1:hover, .btn2:hover{
+    background-image: linear-gradient(to left, #57d7e5, #757ae6, #9129ea);
+}
+.form{
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.form1, .form2{
+    display: none;
+}
+.form h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form .dismiss{
+    float: right;
+    cursor: pointer;
+}
+.input-group{
+    margin: 15px 0;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 6px;
+}
+a{
+    text-decoration: none;
+    color: #5dc5e5;
+    font-weight: 600;
+}
+.btn2{
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(to right, #57d7e5, #757ae6, #9129ea);
+    padding: 6px 40px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin: 25px 0;
+}
+.member{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.link1, .link2{
+    color: #5dc5e5;
+}
